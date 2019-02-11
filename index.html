@@ -5,14 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Brandon Emons' Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- <link rel="stylesheet" type="text/css" media="screen" href="main.css"> -->
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css">
 </head>
 <body>
-    <header>
-        <div>
-            <h1>Brandon Emons</h1>
-        </div>
-        <div>
+    <header id="masthead">
+        <div class="container">
+            <a href="index.html" id="logo">Brandon Emons</a>
             <nav>
                 <a href="index.html">About</a>
                 <a href="portfolio.html">Portfolio</a>
@@ -20,17 +18,22 @@
             </nav>
         </div>
     </header>
-    <section>
-        <div>
-            <h2>About Me</h2>
-            <img src="assets/images/brandon.jpg" height="100" width="90">
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus faucibus ut nibh sit amet placerat. Fusce in pellentesque ante. Integer lacinia vestibulum leo, ac mattis sapien gravida sed. Nam vitae condimentum dui, id tincidunt nisl. Praesent quis urna in nunc dignissim mattis. Aliquam id odio ut urna bibendum tincidunt. In vestibulum laoreet sagittis.
-            </p>
-        </div>
-    </section>
+
+    <div id="main-container" class="container">
+        <section class="main-section">
+            <div>
+                <h1>About Me</h1>
+                <img src="assets/images/brandon.jpg" class="auth-image" alt="Brandon Emons">
+                <p>
+                    My name is Brandon Emons and I am a student in the Full Stack Developer Coding Bootcamp. I am currently 18 years old and in the middle of a gap year. By taking this class I hope that I can improve my skills as a developer and one day get a job in the field after completing further education.
+                </p>
+            </div>
+        </section>
+    </div>
     <footer>
-        <p>Copyright &copy;</p>
+        <div class="container">
+            Copyright &copy;
+        </div>
     </footer>
 </body>
 </html>
